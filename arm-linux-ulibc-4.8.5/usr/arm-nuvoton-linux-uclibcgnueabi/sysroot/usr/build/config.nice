@@ -1,0 +1,55 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/bin/arm-nuvoton-linux-uclibcgnueabi-gcc"; export CC
+CFLAGS="-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64  -Os "; export CFLAGS
+CPPFLAGS="-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64"; export CPPFLAGS
+"./configure" \
+"--target=arm-nuvoton-linux-uclibcgnueabi" \
+"--host=arm-nuvoton-linux-uclibcgnueabi" \
+"--build=x86_64-pc-linux-gnu" \
+"--prefix=/usr" \
+"--exec-prefix=/usr" \
+"--sysconfdir=/etc" \
+"--localstatedir=/var" \
+"--program-prefix=" \
+"--disable-gtk-doc" \
+"--disable-gtk-doc-html" \
+"--disable-doc" \
+"--disable-docs" \
+"--disable-documentation" \
+"--with-xmlto=no" \
+"--with-fop=no" \
+"--disable-dependency-tracking" \
+"--enable-ipv6" \
+"--disable-static" \
+"--enable-shared" \
+"--sysconfdir=/etc/apache2" \
+"--with-apr=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/arm-nuvoton-linux-uclibcgnueabi/sysroot/usr" \
+"--with-apr-util=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/arm-nuvoton-linux-uclibcgnueabi/sysroot/usr" \
+"--with-pcre=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/arm-nuvoton-linux-uclibcgnueabi/sysroot/usr/bin/pcre-config" \
+"--enable-http" \
+"--enable-dbd" \
+"--enable-proxy" \
+"--enable-mime-magic" \
+"--without-suexec-bin" \
+"--enable-mods-shared=all" \
+"--with-mpm=worker" \
+"--disable-lua" \
+"--disable-luajit" \
+"--disable-xml2enc" \
+"--disable-proxy-html" \
+"--enable-ssl" \
+"--with-ssl=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/arm-nuvoton-linux-uclibcgnueabi/sysroot/usr" \
+"--enable-deflate" \
+"--with-z=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/arm-nuvoton-linux-uclibcgnueabi/sysroot/usr" \
+"build_alias=x86_64-pc-linux-gnu" \
+"host_alias=arm-nuvoton-linux-uclibcgnueabi" \
+"target_alias=arm-nuvoton-linux-uclibcgnueabi" \
+"CC=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/bin/arm-nuvoton-linux-uclibcgnueabi-gcc" \
+"CFLAGS=-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os" \
+"LDFLAGS=" \
+"CPPFLAGS=-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64" \
+"CPP=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/bin/arm-nuvoton-linux-uclibcgnueabi-cpp" \
+"$@"

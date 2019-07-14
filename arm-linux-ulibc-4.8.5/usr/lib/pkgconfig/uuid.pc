@@ -1,0 +1,11 @@
+prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+exec_prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+libdir=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/lib
+includedir=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.28.2
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

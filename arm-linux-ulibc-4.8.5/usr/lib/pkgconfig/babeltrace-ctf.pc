@@ -1,0 +1,13 @@
+prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Babeltrace CTF parser
+Description: libbabeltrace-ctf provides the specific bits necessary to read a Common Trace Format (CTF) trace.
+Version: 1.4.0
+Requires: babeltrace
+Requires.private: 
+Libs: -L${libdir} -lbabeltrace-ctf
+Cflags: -I${includedir} 
+

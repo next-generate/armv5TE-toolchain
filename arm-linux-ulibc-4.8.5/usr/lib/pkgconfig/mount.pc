@@ -1,0 +1,11 @@
+prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+exec_prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+libdir=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/lib
+includedir=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/include
+
+Name: mount
+Description: mount library
+Version: 2.28.2
+Requires.private: blkid
+Cflags: -I${includedir}/libmount
+Libs: -L${libdir} -lmount

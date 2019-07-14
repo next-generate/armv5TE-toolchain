@@ -1,0 +1,2 @@
+#!/bin/sh
+PKG_CONFIG_LIBDIR=${PKG_CONFIG_LIBDIR:-/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/arm-nuvoton-linux-uclibcgnueabi/sysroot/usr/lib/pkgconfig:/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/arm-nuvoton-linux-uclibcgnueabi/sysroot/usr/share/pkgconfig} PKG_CONFIG_SYSROOT_DIR=${PKG_CONFIG_SYSROOT_DIR:-/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/arm-nuvoton-linux-uclibcgnueabi/sysroot} $(dirname $0)/pkgconf  $@

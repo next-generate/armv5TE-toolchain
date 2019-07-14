@@ -1,0 +1,13 @@
+prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: confuse
+Version: 3.0
+Description: configuration file parser library
+Requires: 
+Libs: -L${libdir} -lconfuse 
+Cflags: -I${includedir}
+

@@ -1,0 +1,11 @@
+prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: popt
+Version: 1.16
+Description: popt library.
+Libs.private: 
+Libs: -L${libdir} -lpopt
+Cflags: -I${includedir}

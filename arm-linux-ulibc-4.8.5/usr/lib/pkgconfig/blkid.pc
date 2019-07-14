@@ -1,0 +1,11 @@
+prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+exec_prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+libdir=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/lib
+includedir=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/include
+
+Name: blkid
+Description: Block device id library
+Version: 2.28.2
+Requires.private: uuid
+Cflags: -I${includedir}/blkid
+Libs: -L${libdir} -lblkid

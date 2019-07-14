@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/bin/bison' -y "$@"

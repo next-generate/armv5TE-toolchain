@@ -1,0 +1,11 @@
+prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+exec_prefix=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr
+libdir=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/lib
+includedir=/home/rick/rainbow/buildroot/NUC970_Buildroot/output/host/usr/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 23
+Libs: -L${libdir} -lkmod
+Libs.private:  
+Cflags: -I${includedir}
